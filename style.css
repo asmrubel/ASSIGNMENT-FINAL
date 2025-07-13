@@ -124,3 +124,59 @@ body {
   height: 328px;
   border-radius: 16px;
 }
+
+
+/* user section */
+
+.user-section {
+  width: 1140px;
+  height: 306px;
+  background-color: #E5E7FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+
+.user-container {
+  width: 856px;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.user-container h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.user-stats {
+  display: flex;
+  gap: 48px;
+}
+
+.user-box {
+  width: 180px;
+  height: 121px;
+  background-color: #E5E7FF;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-box h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 45px;
+  color: #4E47FF;
+  margin: 0;
+}
+
+.user-box p {
+  font-size: 14px;
+  color: #555;
+}
