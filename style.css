@@ -332,3 +332,50 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+
+
+/* footer section */
+
+
+.footer-section {
+  width: 1440px;
+  height: 428px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 531px;
+  height: 221px;
+  text-align: center;
+  background-color:#ffffff
+}
+
+.footer-logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  color: #4E47FF;
+  margin: 0 auto;
+
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #555;
+  margin: 0 0 24px 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+}
