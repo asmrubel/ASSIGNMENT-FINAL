@@ -74,7 +74,8 @@ body {
 
 .focus-btn:hover,
 .signup-btn:hover,
-.action-btn:hover {
+.action-btn:hover,
+.contact-form button:hover {
   background-color: #3730a3;
 }
 
@@ -263,4 +264,71 @@ body {
   margin: 2px 0 0;
   font-size: 12px;
   color: #888;
+}
+
+
+/* contact section */
+
+.contact-section {
+  width: 1140px;
+  height: 632px;
+  background-color: #E5E7FF;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  box-sizing: border-box;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+
+.contact-left {
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-left h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.contact-form {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  margin-top: 12px;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
